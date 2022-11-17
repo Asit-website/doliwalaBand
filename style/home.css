@@ -1,0 +1,575 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("../images/band.jpg"),
+      linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.6));
+    background-blend-mode: darken;
+  }
+  
+  .sect {
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translateY(-50%);
+    color: #fff;
+  }
+  .fect{
+    position: absolute;
+    top: 98%;
+    transform: translateY(-98%);
+    left: 63%;
+    white-space: nowrap;
+  }
+  .fect h1{
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .sect h1 {
+    max-width: 559px;
+    width: 100%;
+    margin: 18px 0;
+    height: auto;
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .sect p {
+    margin: 18px 0;
+    max-width: 475px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  
+  .luxury-wedding{
+    padding: 30px 60px;
+    background-color: #FFFFFF;
+    position: relative;
+  }
+  .position-image{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+  }
+  .position-image img{
+    width: 80px;
+  }
+  .luxury-sox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .luxury-box{
+    padding: 15px 25px;
+    border: 1.8px solid #FD4434;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 680px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    z-index: 1;
+  }
+  .text-luxury h1{
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  .luxury-btn button{
+    background-color: #FD4434;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 130px;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+  }
+  
+  .luxury-side{
+    display: flex;
+    padding: 10px 60px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .luxury-side-first h1{
+    font-size: 30px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    color: #FD4434;
+  }
+  .luxury-side-first{
+    
+  }
+  
+  .luxury-side-first p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+    width: 85%;
+    max-width: 100%;
+    margin-top: 18px;
+    line-height: 22px;
+  }
+  
+  .luxury-side-second img{
+      width: 300px;
+      height: auto;
+  }
+  .butt-lux button{
+    background-color: #FD4434;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    width: 120px;
+    max-width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .wedding-dream{
+    padding: 50px 60px;
+  }
+  .center-wedding h1{
+    text-align: center;
+    color: #FD4434;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .center-wedding p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+  }
+  .band-baja{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin-top: 60px;
+  }
+  .first-band-baja .three-baja{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .three-baja .asset-img img{
+     width: 70px;
+  }
+  .three-para{
+    margin-left: 15px;
+  }
+  .three-para h1{
+    font-size: 19px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+  }
+  .three-para img{
+    margin-top: 10px;
+  }
+  .three-para p{
+    font-size: 13.5px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    width: 75%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  .second-band-baja .three-baja{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .fourt-para p{
+    width: 100%;
+    /* max-width: 100%; */
+  }
+  .second-band-baja .fourth-baja{
+    margin-top: 70px;
+  }
+  .band-youtube{
+    padding: 30px 60px;
+    background-color: #FFFFFF;
+  }
+  .band-youtube iframe{
+    width: 1000px;
+    max-width: 100%;
+    display: block;
+    margin:  auto;
+    height: 500px;
+  }
+  .gallary {
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+  }
+  .gallary img{
+    width: 1000px;
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+  }
+  .gallary h1{
+    text-align: center;
+    color: #FD4434;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 10px;
+  }
+  .gallary-button button{
+    background-color: #FD4434;
+    display: block;
+    margin:40px auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 130px;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+  }
+  .frames{
+    padding: 50px 0px;
+  }
+  .frame{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image: url("../images/wedding-planners-abhinava-weddings-entrance-decor-4_15_388242-163704870640123.jpg"),
+      linear-gradient( rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6));
+    background-blend-mode: darken;
+    object-fit: cover;
+  }
+  .frame .fexta{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .fexta h1{
+      color: #FFFFFF;
+      font-size: 26px;
+      text-align: center;
+      white-space: nowrap;
+      color: #E9DF1B;
+      font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+  }
+  .fexta span{
+    color: white;
+  }
+  .reach-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reach-button button{
+    width: 130px;
+    max-width: 100%;
+    height: 38px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 5px;
+  }
+  
+  .lets_event {
+    padding: 30px 140px;
+   background-color: #FFFFFF;
+  }
+  
+  .lets_event p {
+    text-align: center;
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  .lets_event .main-event {
+    font-size: 30px;
+    text-align: center;
+    color: #FD4434;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+   
+  }
+  .lets_event .chota-event{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 10px;
+  }
+  .lets_event .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .lets_event .arrows .prev-arrow {
+    position: relative;
+  }
+  
+  .lets_event .arrows .prev-arrow img {
+    position: absolute;
+    width: 42px;
+    height: auto;
+    right: 15px;
+    top: -270px;
+    cursor: pointer;
+  }
+  
+  .lets_event .arrows .next-arrow {
+    position: relative;
+  }
+  
+  .lets_event .arrows .next-arrow img {
+    height: auto;
+    position: absolute;
+    width: 42px;
+    top: -270px;
+    left: 15px;
+    cursor: pointer;
+  }
+  
+  
+  .swiper {
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    /* font-size: 16px; */
+    margin: 20px 0;
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide .card {
+    max-width: 100%;
+    width: 320px;
+    height: 430px;
+    max-height: 100%;
+    overflow: hidden;
+    padding: 12px 12px;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    object-fit: cover;
+    border-radius: 8px;
+    z-index: 100;
+  }
+  
+  .swiper-slide .card:hover {
+    background-color: #ec3237;
+    color: #ffffff;
+  }
+  
+  .swiper-slide .card:hover .fard span {
+    color: #ffffff;
+  }
+  .swiper-slide .card .fard {
+    position: relative;
+  }
+  
+  .swiper-slide .card .fard .western {
+    object-position: top;
+  }
+  .swiper-slide .card .fard img {
+    max-width: 280px;
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin: 4px auto;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+  
+  .swiper-slide .card .fard span {
+    color: #FD4434;
+    font-weight: bold;
+    font-size: 14.5px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+  }
+  
+  .swiper-slide .card .fard p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    padding: 5px 9px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: red !important;
+  }
+  
+  .swiper-pagination-bullet {
+    opacity: 1;
+    background: var(--swiper-pagination-bullet-inactive-color, hwb(0 79% 4%));
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 2px;
+    border: 1px solid #ec3237;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* ===========slides show=============== */
+  
+  /* .mySlides {display: none;} */
+  
+  .mySlides img {
+    object-position: bottom;
+    max-width: 100%;
+    width: 614px;
+    height: 370px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    /* margin-top: -25px; */
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    /* background-color: #fff; */
+    border: 1px solid black;
+  
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: black;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

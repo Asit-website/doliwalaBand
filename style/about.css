@@ -1,0 +1,170 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/band-baaja-baraat-india-surat-wedding-occasion-band-most-common-music-band-can-see-workers-147186488.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: darken;
+   
+  }
+
+  .sect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  
+
+  .sect h2 {
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: #FAE425;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .fect{
+    position: absolute;
+    top: 98%;
+    transform: translateY(-98%);
+    left: 63%;
+    white-space: nowrap;
+  }
+  .fect h1{
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+  .about-welcome{
+    padding: 50px 60px;
+    background-color: #ffffff;
+  }
+  .flex-about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 60px;
+  }
+  .first-about h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .first-about p{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    width: 80%;
+    max-width: 100%;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  .abouts-butt button{
+    background-color: #FD4434;
+    color: white;
+    font-size: 14px;
+    padding: 7px 24px;
+    outline: none;
+    border: none;
+    border-radius: 1px 12px;
+    font-weight: 500;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .about-read-more button{
+    background-color: #FD4434;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    width: 120px;
+    max-width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .second-about img{
+     width: 400px;
+     max-width: 400px;
+     height: 430px;
+    
+  }
+  .luxury-sox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .luxury-box{
+    padding: 15px 25px;
+    border: 1.8px solid #FD4434;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 850px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    z-index: 1;
+  }
+  .text-luxury h1{
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  .luxury-btn button{
+    background-color: #FD4434;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 130px;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+  }
+  .wedding_img_container {
+    background-color: #F1F1F1;
+    padding: 40px 60px;
+    position: relative;
+  }
+  .wedding_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin-top: 40px;
+  }
+  .wedding_img img{
+    width:325px;
+    max-width: 100%;
+  }
+  .circle{
+    position: absolute;
+    top: -4%;
+    right: 67%;
+    /* left: -4px; */
+  }
+  .circle img{
+    width: 400px;
+    max-width: 100%;
+    opacity: 0.1;
+  }
+  

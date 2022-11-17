@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style/Styles.css">
+  <link rel="stylesheet" href="style/contact.css">
+ 
+</head>
+<body>
+  <div id="feg"></div>
+  <div class="tal">
+    <div class="sect">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="fect">
+        <h1>Doliwalaband (डोलीवाला) Band</h1>
+    </div>
+  </div>
+  <div class="how">
+    <h1>Welcome To Doliwalaband</h1>
+    <h1> Contact Us</h1>
+    <p>Give us a yell, we would love to get notification from you.</p>
+    <div class="how_flex">
+      <div class="st">
+        <img src="images/Group 326.png" alt="">
+      </div>
+
+      <div class="st">
+        <a target="_blank" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi"> <img
+            src="images/Group 325.png" alt="this"></a>
+      </div>
+
+      <div class="st">
+        <a target="_blank" href="mailto:doliwala.india@gmail.com"> <img src="images/Group 382.png" alt=""></a>
+      </div>
+      <div class="st">
+        <img src="images/Group 324.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- mailto:doliwala.india@gmail.com -->
+  <div class="contas">
+    <div class="wrapper">
+      <form id="myForm" class="dance" >
+        <div class="form">
+          <div class="top-form">
+            <div class="inner-form">
+              <input type="text" placeholder="Name" name="name" required>
+            </div>
+            <div class="inner-form">
+              <input type="text" placeholder="E-Mail"  name="email" required>
+            </div>
+            <div class="inner-form">
+              <input type="text" placeholder="Subject"  name="phone" required>
+            </div>
+          </div>
+          <div class="bottom-form">
+            <div class="inner-form">
+              <textarea placeholder="Your message"  name="query" required></textarea>
+            </div>
+          </div>
+          <button class="btn" type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+<!-- ======================footer========================= -->
+
+
+</body>
+<script src="js/index.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 3,
+     spaceBetween:15,
+     slidesPerGroup: 3,
+     loop: true,
+     loopFillGroupWithBlank: true,
+     pagination: {
+        el: ".first",
+        clickable: true,
+     },
+     navigation: {
+        nextEl: ".st",
+        prevEl: ".ft",
+     },
+
+     breakpoints: {
+        0: {
+           slidesPerView: 1
+        },
+        768: {
+           slidesPerView: 2
+        },
+        1170: {
+           slidesPerView: 3
+        }
+     }
+
+  });
+
+</script>
+<script src="js/footer.js"></script>
+</html>
