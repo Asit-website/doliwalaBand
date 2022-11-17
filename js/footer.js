@@ -76,3 +76,4 @@ document.write(`<footer>
   <img src="images/get-it-on-google-play-badge.png" alt="">
 </div>
 </footer>`);
+

@@ -1,0 +1,134 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/neeraj-brass-band-chourakheda-narsinghpur-narsinghpur-brass-bands-trw8s3sd3a.png'), radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-blend-mode: darken;
+   
+  }
+
+  .sect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .sect h2 {
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .fect{
+    position: absolute;
+    top: 98%;
+    transform: translateY(-98%);
+    left: 63%;
+    white-space: nowrap;
+  }
+  .fect h1{
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+  .about-welcome{
+    padding: 85px 60px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .flex-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+  }
+  .first-about h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .first-about p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 83%;
+    max-width: 100%;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  .first-about .second-para-service{
+    margin-top: 10px;
+  }
+  .first-about .third-para-service{
+    margin-top: 10px;
+  }
+  
+  .about-read-more button{
+    background-color: #FD4434;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    width: 180px;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .second-about{
+    position: relative;
+  }
+  .second-about .bansi{
+    position: relative;
+  }
+  .second-about .bansi img{
+    position: absolute;
+    top: -140px;
+    width: 300px;
+    left: 200px;
+    transform: rotate(10deg);
+  }
+  .second-about img{
+     width: 400px;
+     max-width: 400px;
+     height: 440px;
+     margin-top: 0px;
+    position: relative;
+    
+  }
+
+  
+  .wedding_img_container {
+    background-color: #F1F1F1;
+    padding: 40px 60px;
+    position: relative;
+  }
+  .wedding_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    margin-top: 40px;
+  }
+  .wedding_img img{
+    width:325px;
+    max-width: 100%;
+    margin: 0 10px;
+  }
+ 
+  

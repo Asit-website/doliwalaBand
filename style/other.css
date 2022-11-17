@@ -1,0 +1,211 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/wedding-baggi-1563862926-5010715.jpg'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: darken;
+   
+  }
+
+  .sect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .sect h2 {
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .fect{
+    position: absolute;
+    top: 98%;
+    transform: translateY(-98%);
+    left: 63%;
+    white-space: nowrap;
+  }
+  .fect h1{
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+ .other-services{
+    padding: 30px 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* width: 420px;
+    max-width: 100%; */
+    /* max-width: 1130px;
+    width: 100%; */
+ }
+ 
+ .first-other{
+    padding: 60px 20px;
+    background-color: #4A3F4A;
+ }
+ .first-header-para h1{
+   color: #FFFFFF;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+   font-weight: 500;
+   font-size: 20px;
+ }
+ .first-header-para .other-par{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 10px;
+ }
+ .first-header-para .other-par-second{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 20px;
+ }
+ .second-other{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+ }
+ .second-cirji{
+  margin-top: 10px;
+ }
+ 
+ .first-three-circle{
+    border-radius: 10px;
+    margin: 0 10px;
+    padding:0px 50px ;
+    height: 250px;
+    background-color: #F75254;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .second-three-circle{
+    border-radius: 10px;
+    margin: 0 10px;
+    padding:0px 50px ;
+    height: 250px;
+    background-color: #F7F5F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .third-three-circle{
+    border-radius: 10px;
+    margin: 0 10px;
+    padding:0px 50px ;
+    height: 250px;
+    background-color: #F7F5F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .other-cir{
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0.9;
+ }
+ 
+ .other-cir img{
+    display: block;
+    width: 50px;
+    margin: 50px auto;
+    max-width: 100%;
+ }
+ .other-cir .what{
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+ }
+ .other-cir .shat{
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+ }
+ .cir-head h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15.5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+ }
+ .fther-cir{
+    border: 1px solid #FF0000;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0.9;
+ }
+ .fther-cir img{
+    display: block;
+    width: 50px;
+    margin: 50px auto;
+    max-width: 100%;
+ }
+ .fther-cir .what{
+    width: 10px;
+    height: 10px;
+    background-color: #F75254;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+ }
+ .fther-cir .shat{
+    width: 10px;
+    height: 10px;
+    background-color: #F75254;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+ }
+ .fir-head h2{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 20px; 
+    /* white-space: nowrap; */
+ }
