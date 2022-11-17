@@ -148,13 +148,14 @@
   .wedding_img{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px 60px;
     margin-top: 40px;
   }
   .wedding_img img{
     width:325px;
     max-width: 100%;
+    margin: 0 10px;
   }
   .circle{
     position: absolute;
