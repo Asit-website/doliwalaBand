@@ -131,7 +131,7 @@ body {
   display: none;
 }
 .dropdown {
-  opacity: 0;
+  display: none !important;
   align-items: flex-start !important;
   justify-content: center !important;
   flex-direction: column;
@@ -141,7 +141,7 @@ body {
   margin-top: 34.7px;
 }
 .propdown{
-  opacity: 1;
+ display: block !important;
 }
 .dropdown li {
   padding: 0px 12px;
@@ -397,6 +397,7 @@ footer .contact .doliWala_textImg {
 
 @media only screen and (max-width:971px){
   .dropdown{
-    bottom: -160px !important;
+     position: absolute;
+     bottom: -34px;
   }
 }
