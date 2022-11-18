@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style/Styles.css">
   <link rel="stylesheet" href="style/contact.css">
- 
+  <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
   <div id="feg"></div>
@@ -82,5 +82,17 @@
 <script src="js/index.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/activePage.js"></script>
+<script src="js/whatsapp.js"></script>
 <script src="js/footer.js"></script>
+<script>
+    let burger = document.querySelector('.burger');
+   let navbar = document.querySelector('.navbar')
+   // let second = document.querySelector('.second');
+   let fing = document.querySelector('.fing');
+
+   burger.addEventListener('click', () => {
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
+</script>
 </html>

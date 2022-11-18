@@ -44,90 +44,228 @@
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
   }
-  .about-welcome{
-    padding: 85px 60px;
-    background-color: #ffffff;
-    position: relative;
-  }
-  .flex-about{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 60px;
-  }
-  .first-about h1{
-    font-family: 'Lexend', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .first-about p{
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    width: 83%;
-    max-width: 100%;
-    margin-top: 20px;
-    line-height: 22px;
-  }
-  .first-about .second-para-service{
-    margin-top: 10px;
-  }
-  .first-about .third-para-service{
-    margin-top: 10px;
-  }
-  
-  .about-read-more button{
-    background-color: #FD4434;
-    outline: none;
-    border: none;
-    margin-top: 30px;
-    width: 180px;
-    max-width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Lexend', sans-serif;
-  }
-  .second-about{
-    position: relative;
-  }
-  .second-about .bansi{
-    position: relative;
-  }
-  .second-about .bansi img{
-    position: absolute;
-    top: -140px;
-    width: 300px;
-    left: 200px;
-    transform: rotate(10deg);
-  }
-  .second-about img{
-     width: 400px;
-     max-width: 400px;
-     height: 380px;
-     margin-top: 40px;
-    position: relative;
-  }
+ .gallary{
+   padding: 40px 60px;
+   position: relative;
+ }
+ .gallary .bansi{
+  position: relative;
+ }
+ .gallary .bansi img{
+  position: absolute;
+  left: 75%;
+  top: -50px;
+  z-index: -1;
+ }
+ .gallary h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+ }
+ .gallary p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+ }
+ .gallary .gal-img{
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+ }
+ /* .gallary-button button{
+  display: none;
+  background-color: #FD4434;
+  display: block;
+  margin:40px auto;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 130px;
+  height: 38px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+ } */
 
-  
-  .wedding_img_container {
-    background-color: #F1F1F1;
-    padding: 40px 60px;
+ .pagination{
+	width: 100%;
+	float: left;
+	padding:50px 0px;
+	text-align: center;
+}
+ .pagination div{
+	display: inline-block;
+	margin:0 10px;
+}
+ .pagination .page{
+	color:gray;
+}
+ .pagination .prev, .pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+ .pagination .prev.disabled,
+ .pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+
+.gallery-items .fanother.hide{
+   display: none;
+}
+
+.gallery-items .fanother.show{
+	display: block;
+	animation: show .5s ease;
+}
+
+@keyframes show{
+  0%{
+    opacity:0;
+    transform: scale(0.9);
+  }
+  100%{
+    opacity:1;
+    transform: scale(1);
+  }
+}
+
+.pagination .prev, .pagination .next{
+  color:#000;
+  border:1px solid #000;
+  font-size:15px;
+  padding:7px 15px;
+  cursor: pointer;
+ }
+
+ .another {
+  float: left;
+	width:50%;
+	position: relative;
+  /* margin: 20px 0px; */
+}
+.gallery-items{
+  padding: 0 55px;
+}
+.another1{
+  margin: 0 15px;
+}
+.another2 {
+  margin: 0 15px;
+}
+.ant1 {
+  margin: 0px 15px;
+}
+
+.ant1 img {
+  max-width: 837px;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.ant2 {
+  margin: 0px 15px;
+}
+
+.ant2 img {
+  height: auto;
+  width: 100%;
+  max-width: 841px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.another3 {
+  margin: 0 15px;
+}
+
+.another3 img {
+  width: 837px;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100;
+  object-fit: cover;
+  border-radius: 0px;
+  /* object-position: top; */
+}
+
+.another4 {
+  margin: 25px 15px;
+}
+
+.another4 img {
+  width: 837px;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/* ================medai only screen =============== */
+@media only screen and (max-width:1199px){
+  .fect{
+     left: 9%; 
+  }
+  .tal{
+    height: 70vh;
+  }
+  .gallary .bansi img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:971px){
+  .another {
+    flex-direction: column;
+    /* margin: 10px 0;  isko changes  */
     position: relative;
+    float: none;
+    width: 100%;
   }
-  .wedding_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 60px;
-    margin-top: 40px;
+  .another3 img{
+    height: auto;
+    display: block;
+    margin: auto;
   }
-  .wedding_img img{
-    width:325px;
-    max-width: 100%;
-    margin: 0 10px;
+  .another4 img{
+    height: auto;
+    display: block;
+    margin: auto;
   }
- 
-  
+}
+
+@media only screen and (max-width:920px){
+  .gallary{
+    padding: 40px 30px;
+  }
+  .gallery-items{
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width:577px){
+  .fect{
+    white-space: break-spaces;
+  }
+}
+@media only screen and (max-width:402px){
+  .sect h2{
+    font-size: 26px;
+  }
+  .fect h1{
+    font-size: 20px;
+  }
+}

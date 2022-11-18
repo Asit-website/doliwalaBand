@@ -98,8 +98,8 @@
   }
   .second-about .bansi img{
     position: absolute;
-    top: -140px;
-    width: 300px;
+    top: -90px;
+    width: 250px;
     left: 200px;
     transform: rotate(10deg);
   }
@@ -131,4 +131,94 @@
     margin: 0 10px;
   }
  
+  @media only screen and (max-width:1199px){
+    .fect{
+       left: 9%; 
+    }
+    .tal{
+      height: 70vh;
+    }
+  }
+  @media only screen and (max-width:1095px) {
+     .first-about p{
+      width: 95%;
+     }
+  }
+ @media only screen and (max-width:1005px){
+   .flex-about{
+    flex-direction: column;
+   }
+   .second-about{
+    margin-top: 40px;
+  }
+ }
+
+ @media only screen and (max-width:920px){
+  .about-welcome{
+    padding: 50px 20px;
+  }
+  .flex-about{
+    padding: 0px 10px;
+  }
+  .wedding_img{
+    padding: 0px 20px;
+  }
+
+ }
+
+ @media only screen and (max-width:577px){
+  .fexta h1{
+    font-size: 20px;
+  }
+  .fect{
+    white-space: break-spaces;
+  }
+  .circus img{
+    display: none;
+  }
+  .second-about .bansi img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .wedding_img{
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .wedding_img img{
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width:402px){
+  .fect h1{
+    font-size: 20px;
+  }
+  .wedding_img{
+    padding: 0px 0px;
+  }
+  .first-about p{
+    font-size: 15px;
+  }
+  .wedding_img img{
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin:10px auto;
+  }
+  .second-about img{
+    height: auto;
+    width: 300px;
+  }
+  .sect h2{
+    font-size: 26px;
+  }
+  .sect p{
+    font-size: 20px;
+  }
+}
   

@@ -57,6 +57,18 @@
     background-color: #FFFFFF;
     position: relative;
   }
+   .bansi{
+    position: relative;
+  }
+   .bansi img{
+    position: absolute;
+    top: -91px;
+    width: 200px;
+    left: 88px;
+    opacity: 0.6;
+    /* transform: rotate(10deg); */
+}
+  
   .position-image{
     position: absolute;
     top: 85%;
@@ -258,7 +270,7 @@
     font-weight: 400;
   }
   .frames{
-    padding: 50px 0px;
+    padding: 0px 0px;
   }
   .frame{
     position: relative;
@@ -572,4 +584,141 @@
       opacity: 1;
     }
   }
+
+  /* ===================medai ============== */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  @media only screen and (max-width:1199px){
+    .fect{
+       left: 9%; 
+    }
+    .tal{
+      height: 70vh;
+    }
+  }
+  @media screen and (max-width:935px) {
+    .luxury-side-first p{
+      width: 90%;
+    }
+    .luxury-side{
+       margin-top: 100px;
+    }
+    
+  }
+  @media only screen and (max-width:920px){
+    .luxury-side{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .luxury-side-second{
+      margin-top: 60px;
+    }
+    .band-baja{
+      flex-direction: column;
+      align-items: center;
+    }
+    .fexta h1{
+      white-space: break-spaces;
+    }
+    .position-image img{
+      display: none;
+    }
+    .luxury-wedding{
+      padding: 30px 20px;
+    }
+    .luxury-side{
+      padding: 10px 10px;
+    }
+    .wedding-dream{
+      padding: 50px 20px;
+    }
+    .band-baja{
+      padding: 0 10px;
+    }
+    .band-youtube{
+      padding: 30px 30px;
+    }
+    .gallary{
+      padding: 20px 30px;
+    }
+  }
+
+  @media only screen and (max-width:577px){
+    .luxury-box{
+      flex-direction: column;
+    }
+    .luxury-btn button{
+      margin-top: 30px;
+    }
+    .text-luxury h1{
+      text-align: center;
+    }
+    .fexta h1{
+      font-size: 20px;
+    }
+    /* .luxury-side-second img{
+      display: none;
+    } */
+    .fect{
+      white-space: break-spaces;
+    }
+    .bansi img{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .lets_event {
+      padding: 50px 30px;
+    }
+    .lets_event h2 {
+      font-size: 25px;
+    }
+    .lets_event p {
+      font-size: 10px;
+    }
   
+    .lets_event .arrows .prev-arrow img {
+      position: unset;
+    }
+  
+    .lets_event .arrows .next-arrow img {
+      position: unset;
+    }
+  }
+
+  @media only screen and (max-width:402px){
+    .sect h1{
+      font-size: 26px;
+    }
+    .sect p{
+      font-size: 15px;
+    }
+    .fect h1{
+      font-size: 20px;
+    }
+    .luxury-side-first h1{
+      font-size: 26px;
+    }
+    .luxury-side-first p{
+      font-size: 15px;
+    }
+    .center-wedding h1{
+      font-size: 26px;
+    }
+    .center-wedding p{
+      font-size: 15px;
+    }
+    .lets_event .main-event{
+      font-size: 26px;
+    }
+    .lets_event .chota-event{
+      font-size: 26px;
+    }
+  }

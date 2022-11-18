@@ -19,6 +19,7 @@ template.innerHTML=`<div class="sender">
   <img src="images/Group 428.jpg" alt="nothing">
 </div>
 <div class="second_nav">
+<button style=" padding: 5px 20px; background-color: hotpink; border: none; outline: none; border-radius: 5px; color: #FFFFFF;" class="burger">Menu</button>
   <ul class="fing v-class-resp">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Us</a></li>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/Styles.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 
 <body>
@@ -60,6 +61,9 @@
                 </div>
             </div>
             <div class="second-about">
+                <div class="circus">
+                    <img src="images/Path 232.png" alt="">
+                </div>
                  <img src="images/Group 343.png" alt="">
             </div>
         </div>
@@ -97,6 +101,19 @@
 <script src="js/index.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/activePage.js"></script>
+<script src="js/whatsapp.js"></script>
 <script src="js/footer.js"></script>
+<script>
+     let burger = document.querySelector('.burger');
+   let navbar = document.querySelector('.navbar')
+   // let second = document.querySelector('.second');
+   let fing = document.querySelector('.fing');
+
+   burger.addEventListener('click', () => {
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
+
+</script>
 
 </html>

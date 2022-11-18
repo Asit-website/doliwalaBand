@@ -67,11 +67,11 @@
   }
 
   .how_flex {
-    height: 274px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 30px;
+    padding: 0px 30px;
+    margin-top: 40px;
   }
 
   .st {
@@ -87,7 +87,7 @@
 
 
 .contas{
-  background-color:#222222 ; padding: 60px 60px;
+  background-color:#222222 ; padding: 30px 60px;
 }
 .contas p{
   margin-top: 20px;
@@ -197,3 +197,79 @@
     border-radius: 7px;
     margin: 25px auto;
   }
+
+  @media only screen and (max-width:1199px){
+    .fect{
+       left: 9%; 
+    }
+    .tal{
+      height: 70vh;
+    }
+  }
+
+  @media only screen and (max-width:920px){
+    .how{
+      padding: 80px 20px;
+    }
+    .how_flex{
+      padding: 0 10px;
+    }
+    .contas{
+      padding:30px 20px ;
+    }
+    .wrapper{
+      padding: 0px 10px;
+    }
+  }
+
+  @media screen and (max-width: 460px) {
+    .top-form .inner-form {
+      width: 100%;
+      margin: 5px 0;
+    }
+
+    .bottom-form textarea{
+      margin: 10px 0;
+    }
+
+    .inner-form input{
+      margin: 10px 0;
+    }
+
+    .top-form,
+    .bottom-form {
+      margin: 5px 0;
+    }
+
+    .form {
+      margin-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width:402px){
+    .fect h1{
+      font-size: 20px;
+    }
+    .sect h2{
+      font-size: 26px;
+    }
+    .sect p{
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width:577px){
+    .fect{
+      white-space: break-spaces;
+    }
+  }
+
+  @media only screen and (max-width:770px){
+    .how_flex{
+      flex-direction: column;
+    }
+    .how_flex img{
+      margin: 10px 0px;
+    }
+  }
+    

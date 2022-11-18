@@ -12,12 +12,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/Styles.css">
     <link rel="stylesheet" href="style/service.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
-<style>
-    /* .propdown{
-  opacity: 1;
-} */
-</style>
 <body>
 
     <div id="feg"></div>
@@ -101,12 +97,16 @@
 <script src="js/index.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/activePage.js"></script>
+<script src="js/whatsapp.js"></script>
 <script src="js/footer.js"></script>
 <script>
-    // let prop = document.querySelector(".dropdown");
-    // let tier = document.querySelector(".tier");
-    // tier.addEventListener("mouseover",()=>{
-    //     prop.classList.toggle("propdown");
-    // })
+   let burger = document.querySelector('.burger');
+   let navbar = document.querySelector('.navbar')
+   let fing = document.querySelector('.fing');
+
+   burger.addEventListener('click', () => {
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
 </script>
 </html>

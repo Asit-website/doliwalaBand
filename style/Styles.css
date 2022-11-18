@@ -19,6 +19,23 @@ body {
   justify-content: space-between;
 }
 
+.whatsapp{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.my-float{
+  margin-top: 10px;
+}
+
 .first_head {
   display: flex;
   padding: 0 20px;
@@ -107,7 +124,12 @@ body {
   background-color: #ffffff;
   font-weight: bold;
 }
-
+.v-class-resp{
+  visibility: visible;
+}
+.burger{
+  display: none;
+}
 .dropdown {
   opacity: 0;
   align-items: flex-start !important;
@@ -272,9 +294,20 @@ footer .contact .doliWala_textImg {
 .get_in {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin: 0 15px;
   /* width: 100%; */
 }
+.get_in .bansi{
+  position: relative;
+}
+.get_in .bansi img{
+  position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 180px;
+}
+
 .get_in span {
   white-space: nowrap;
   font-size: 20px;
@@ -286,8 +319,8 @@ footer .contact .doliWala_textImg {
 
 .get_in img {
   margin-top: 80px;
-  max-width: 100%;
-  width: 280px;
+  /* max-width: 100%; */
+  width: 200px;
   height: auto;
 }
 
@@ -308,22 +341,23 @@ footer .contact .doliWala_textImg {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
 
 .another_footer {
   background-color: #222222;
-  padding: 20px 10px;
+  padding: 12px 10px;
 }
 
 .another_footer p {
   text-align: center;
-  color: #000000;
-  font-size: 12.2px;
+  color: #ffffff;
+  font-size: 12px;
   line-height: 24px;
   font-family: "Poppins", sans-serif;
+  opacity: 0.9;
 }
 
 .another_footer a {
@@ -335,7 +369,7 @@ footer .contact .doliWala_textImg {
 
 .other-brands span {
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
@@ -356,7 +390,7 @@ footer .contact .doliWala_textImg {
   text-decoration: none;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  color: #000000;
   margin: 0 2px;
   text-align: justify;
 }

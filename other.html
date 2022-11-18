@@ -12,15 +12,10 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/Styles.css">
     <link rel="stylesheet" href="style/other.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
-<style>
-    /* .propdown{
-  opacity: 1;
-} */
-</style>
 
 <body>
-
     <div id="feg"></div>
 
     <div class="tal">
@@ -33,6 +28,9 @@
     </div>
 
     <div class="other-services">
+         <div class="bansi">
+            <img src="images/Rectangle 215.jpg" alt="">
+         </div>
         <div class="first-other">
             <div class="first-header-para">
                 <h1>Other Services</h1>
@@ -57,9 +55,9 @@
                 </p>
             </div>
         </div>
-        <div class="second">
+        <div class="seconds">
         <div class="second-other">
-            
+           
                 <div class="first-three-circle">
                      <div class="other-cir">
                         <div class="what"></div>
@@ -89,7 +87,7 @@
                           <div class="shat"></div>
                      </div> 
                      <div class="fir-head">
-                         <h2>Bride & Groom
+                         <h2>Bride & Groom <br>
                             Wedding Entry</h2>
                      </div>
                 </div>
@@ -113,7 +111,7 @@
                       <div class="shat"></div>
                  </div> 
                  <div class="fir-head">
-                     <h2>Indian Artist Management</h2>
+                     <h2>Indian Artist <br> Management</h2>
                  </div>
             </div>
 
@@ -124,7 +122,7 @@
                       <div class="shat"></div>
                  </div> 
                  <div class="fir-head">
-                     <h2>International Artist
+                     <h2>International Artist <br>
                         Management</h2>
                  </div>
             </div>
@@ -170,6 +168,16 @@
 <script src="js/index.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/activePage.js"></script>
+<script src="js/whatsapp.js"></script>
 <script src="js/footer.js"></script>
+<script>
+    let burger = document.querySelector('.burger');
+   let navbar = document.querySelector('.navbar')
+   let fing = document.querySelector('.fing');
 
+   burger.addEventListener('click', () => {
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
+</script>
 </html>

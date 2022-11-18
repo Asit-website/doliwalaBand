@@ -1,0 +1,261 @@
+@media only screen and (max-width:1050px) {
+    footer{
+       flex-direction: column;
+       align-items: center;
+      }
+      footer{
+       flex-direction: column;
+       align-items: center;
+      }
+ 
+      footer .aboutUs span{
+       font-size: 16px;
+      }
+ 
+      footer .aboutUs  .about_para p{
+        font-size: 12px;
+        line-height: 21px;
+      }
+ 
+      footer .aboutUs{
+       text-align: center;
+      }
+ 
+      footer .aboutUs  .about_image{
+       margin-left: auto;
+      }
+ 
+      footer .Information{
+        text-align: center;
+        margin-top: 25px;
+      }
+ 
+      footer .Information span{
+       font-size: 16px;
+      }
+ 
+      footer .Information .anchor_information a{
+       font-size: 12px;
+      }
+ 
+      footer .contact{
+       text-align: center;
+       margin-top: 25px;
+      }
+      
+ 
+      footer .contact span{
+       font-size: 16px;
+      }
+ 
+      footer .contact .contact_para p{
+       font-size: 12px;
+      }
+ 
+      footer .contact .doliWala_textImg{
+       margin-top: 25px;
+      }
+ 
+      footer .aboutUs .about_image img{
+       margin: 0 6px;
+       width: 20px;
+   }
+ 
+      .dir{
+       font-size: 12px;
+      }
+ 
+      .get_in .bansi{
+         display: none;
+      }
+ 
+      .get_in span{
+       font-size: 16px;
+      }
+ 
+      footer .aboutUs .about_image img{
+       width: 25px;
+      }
+
+      .get_in img{
+        margin-top: 20px;
+      }
+ 
+      .doliwala_try{
+       justify-content: center;
+      }
+      
+      .other-brands span{
+       font-size: 16px;
+      }
+      .brand img{
+       width: 30px ;
+       display: block;
+      margin: auto;
+       height: 30px;
+      }
+ 
+      .brand{
+        display: grid;
+        justify-content: center;
+        margin: 15px 0px;
+      }
+ 
+      .brand a{
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: center;
+      }
+ }
+ 
+ @media only screen and (max-width:791px) {
+     .head{
+         flex-direction: column;
+      }
+   
+      .first_head{
+         padding: 0 0;
+      }
+   
+      .first_head span{
+         font-size: 10px;
+         padding: 0 12px;
+      }
+      .first_span img{
+         width: 11px;
+         height: 11px;
+      }
+ 
+      .second_span img{
+         width: 11px;
+         height: 11px;
+      }
+     
+      .head .second_head{
+        
+         padding: 0 0;
+         margin: 15px 0;
+      }
+ 
+   
+ }
+ 
+ @media only screen and (max-width:971px){
+    .navbar{
+       flex-direction: column;
+    }
+ 
+    .second_nav ul{
+      
+       flex-direction: column;
+       margin-top: 15px;
+    }
+ 
+   .second_nav .burger{
+      display: block;
+      margin: 10px auto;
+    }
+ 
+    .second_nav ul li{
+       padding: 10px 0px;
+    }
+   
+    .v-class-resp{
+       visibility: hidden;
+    }
+ 
+    .second{
+       height: 120px;
+    }
+ 
+    .second_nav ul li a:is(:link,:active,:visited){
+     font-size: 12px;
+    }
+ 
+    footer{
+       flex-direction: column;
+       align-items: center;
+      }
+ 
+      footer .aboutUs span{
+       font-size: 16px;
+      }
+ 
+      footer .aboutUs  .about_para p{
+        font-size: 12px;
+        line-height: 21px;
+      }
+ 
+      footer .aboutUs{
+       text-align: center;
+      }
+ 
+      footer .aboutUs  .about_image{
+       margin-left: auto;
+      }
+ 
+      footer .Information{
+        text-align: center;
+        margin-top: 25px;
+      }
+ 
+      footer .Information span{
+       font-size: 16px;
+      }
+ 
+      footer .Information .anchor_information a{
+       font-size: 12px;
+      }
+ 
+      footer .contact{
+       text-align: center;
+       margin-top: 25px;
+      }
+      
+ 
+      footer .contact span{
+       font-size: 16px;
+      }
+ 
+      footer .contact .contact_para p{
+       font-size: 12px;
+      }
+ 
+      footer .contact .doliWala_textImg{
+       margin-top: 25px;
+      }
+ 
+      .dir{
+       font-size: 12px;
+      }
+ 
+      .get_in{
+       margin-top: 25px;
+      }
+ 
+      .get_in span{
+       font-size: 16px;
+      }
+ 
+      footer .aboutUs .about_image img{
+       width: 25px;
+      }
+    
+ }
+
+ @media only screen and (max-width:453px){
+   .get_in img{
+    width: 200px;
+   }
+ }
+
+ @media only screen and (max-width:501px){
+   .first_head{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .second_span{
+      margin-top: 5px;
+   }
+ }

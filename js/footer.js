@@ -16,10 +16,10 @@ document.write(`<footer>
     <a target="-blank" href="https://youtube.com/channel/UCqMQTrx_gCy0WSjfStYIVeA"><img src="images/Mask Group 11.png" alt="be"></a>
     
   </div>
-  <!-- <div class="other-brands">
+  <div class="other-brands">
   <span>Our other brands</span>
   <div class="brand">
-      <a target="_blank" href="www.doliwalaband.com"><img src="images/logo doliwala.png" alt=""></a>
+      <a target="_blank" href="www.doliwalaband.com"><img src="images/doli.png" alt=""></a>
       <a target="_blank" href="www.doliwalaband.com">Doliwala डोलीवाला Band <br/>
       The Luxury Wedding Band</a>
   </div>
@@ -27,7 +27,7 @@ document.write(`<footer>
      <a target="_blank"  href="http://www.palkiwala.com/" > <img src="images/ds.jpeg" alt=""></a>
       <a target="_blank"  href="http://www.palkiwala.com/">Palkiwala पालकीवाला <br/> The  Wedding Planner</a>
   </div>
-</div> -->
+</div>
 
 </div>
 <div class="Information">
@@ -73,7 +73,18 @@ document.write(`<footer>
 
 
 <div class="get_in">
+  <div class="bansi">
+  <img src="images/bansi.png" alt="">
+  </div>
   <img src="images/get-it-on-google-play-badge.png" alt="">
 </div>
-</footer>`);
+
+</footer>
+<div  class="another_footer">
+<p >
+  © Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark
+</p>
+<a href="www.kusheldigi.com" target="_blank"><p >Designed & Developed By Kushel Digi Solutions</p></a>
+</div>
+`);
 
