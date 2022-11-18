@@ -398,8 +398,8 @@ footer .contact .doliWala_textImg {
 @media only screen and (max-width:971px){
   .dropdown{
      position: absolute;
-     bottom: 0px;
-     z-index: 200;
+     bottom: -60%;
+     /* z-index: 200; */
   }
   .dropdown li a:is(:link, :active, :visited){
     margin: 5px 0px !important;
