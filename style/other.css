@@ -275,3 +275,14 @@
       margin: 10px 10px;
    }
  }
+ @media only screen and (max-width:402px){
+   .fect h1{
+      font-size: 20px;
+    }
+    .sect h2{
+      font-size: 26px;
+    }
+    .sect p{
+      font-size: 20px;
+    }
+ }
