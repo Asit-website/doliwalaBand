@@ -398,6 +398,6 @@ footer .contact .doliWala_textImg {
 @media only screen and (max-width:971px){
   .dropdown{
      position: absolute;
-     bottom: -100px;
+     bottom: -160px;
   }
 }
