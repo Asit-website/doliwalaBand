@@ -394,3 +394,9 @@ footer .contact .doliWala_textImg {
   margin: 0 2px;
   text-align: justify;
 }
+
+@media only screen and (max-width:971px){
+  .dropdown{
+    bottom: -156px !important;
+  }
+}

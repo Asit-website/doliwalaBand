@@ -20,7 +20,7 @@ template.innerHTML=`<div class="sender">
 </div>
 <div class="second_nav">
 <button style=" padding: 5px 20px; background-color: hotpink; border: none; outline: none; border-radius: 5px; color: #FFFFFF;" class="burger">Menu</button>
-  <ul class="fing v-class-resp">
+  <ul class="fing v-class-resp linkta">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Us</a></li>
     <li ><a class="tier"  href="service.html">Services</a>
