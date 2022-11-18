@@ -207,8 +207,8 @@
   .wedding_img img{
     width: 600px;
     max-width: 100%;
-    display:10px block;
-    margin: auto;
+    display: block;
+    margin:10px auto;
   }
   .second-about img{
     height: auto;
