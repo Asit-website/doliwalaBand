@@ -144,10 +144,6 @@
     .navbar{
        flex-direction: column;
     }
-   .second_nav ul .dropdown{
-      position: absolute !important;
-      bottom: -156px !important;
-    }
     .second_nav ul{
        flex-direction: column;
        margin-top: 15px;
