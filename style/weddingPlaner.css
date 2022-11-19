@@ -1,0 +1,241 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/beach.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: darken;
+   
+  }
+
+  .sect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .sect h2 {
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .fect{
+    position: absolute;
+    top: 98%;
+    transform: translateY(-98%);
+    left: 63%;
+    white-space: nowrap;
+  }
+  .fect h1{
+    color: #fae425;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+  }
+  .about-welcome{
+    padding: 85px 60px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .flex-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+  }
+  .first-about h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .first-about p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 83%;
+    max-width: 100%;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  .first-about .second-para-service{
+    margin-top: 10px;
+  }
+  .first-about .third-para-service{
+    margin-top: 10px;
+  }
+  
+  .about-read-more button{
+    background-color: #FD4434;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    width: 180px;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+  }
+  .second-about{
+    position: relative;
+  }
+  .second-about .bansi{
+    position: relative;
+  }
+  .second-about .bansi img{
+    position: absolute;
+    top: -90px;
+    width: 250px;
+    left: 200px;
+    transform: rotate(10deg);
+  }
+  .second-about img{
+     width: 400px;
+     max-width: 400px;
+     height: 380px;
+     margin-top: 40px;
+    position: relative;
+    border-radius: 0px 60px;
+  }
+
+  
+  .wedding_img_container {
+    background-color: #F1F1F1;
+    padding: 40px 60px;
+    position: relative;
+  }
+  .wedding_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    margin-top: 40px;
+  }
+  .wedding_img img{
+    width:325px;
+    max-width: 100%;
+    margin: 0 10px;
+  }
+
+  /* ===============media query============== */
+  @media only screen and (max-width:1199px){
+    .fect{
+       left: 9%; 
+    }
+    .tal{
+      height: 70vh;
+    }
+  }
+  @media only screen and (max-width:1095px) {
+     .first-about p{
+      width: 95%;
+     }
+  }
+ @media only screen and (max-width:1005px){
+   .flex-about{
+    flex-direction: column;
+   }
+   .second-about{
+    margin-top: 40px;
+  }
+ }
+
+ @media only screen and (max-width:920px){
+  .about-welcome{
+    padding: 50px 20px;
+  }
+  .flex-about{
+    padding: 0px 10px;
+  }
+  .wedding_img{
+    padding: 0px 20px;
+  }
+
+ }
+
+ @media only screen and (max-width:577px){
+  .fexta h1{
+    font-size: 20px;
+  }
+  .fect{
+    white-space: break-spaces;
+  }
+  .circus img{
+    display: none;
+  }
+  .second-about .bansi img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .wedding_img{
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .wedding_img img{
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin:10px auto;
+  }
+}
+
+@media only screen and (max-width:402px){
+  .fect h1{
+    font-size: 20px;
+  }
+  .wedding_img{
+    padding: 0px 0px;
+  }
+  .first-about p{
+    font-size: 15px;
+  }
+  .wedding_img_container{
+    padding: 40px 30px;
+  }
+  .wedding_img img{
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin:10px auto;
+  }
+  .second-about img{
+    height: auto;
+    width: 300px;
+  }
+  .sect h2{
+    font-size: 26px;
+  }
+  .sect p{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width:325px){
+  .second-about img{
+    width: 248px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .circus img{
+    display: none;
+  }
+}
+  
+ 
+  

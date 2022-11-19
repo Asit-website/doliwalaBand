@@ -32,12 +32,12 @@ template.innerHTML=`<div class="sender">
             <li><a href="rusian.html">Russian Dhol</a></li>
             <li><a href="fireworks.html">Wedding Fireworks</a></li>
             <li><a href="sahisahanai.html">Shahi Shehnai vadan</a></li>
-            <li><a href="">Royal Nagada & Turai</a></li>
-            <li><a href="">Nafiri tasha Party</a></li>
-            <li><a href="">Bride Groom Entry</a></li>
-            <li><a href="">Jaimala theme</a></li>
-            <li><a href="">Wedding Planner</a></li>
-            <li><a href="">Entertainment</a></li>
+            <li><a href="nagada.html">Royal Nagada & Turai</a></li>
+            <li><a href="nafriTasha.html">Nafiri tasha Party</a></li>
+            <li><a href="brideGroom.html">Bride Groom Entry</a></li>
+            <li><a href="jaimala.html">Jaimala theme</a></li>
+            <li><a href="weddingPlaner.html">Wedding Planner</a></li>
+            <li><a href="Entairtenment.html">Entertainment</a></li>
         </ul></li>
     <li>
         <a href="other.html">Other Services</a>
