@@ -104,9 +104,9 @@
     transform: rotate(10deg);
   }
   .second-about img{
-     width: 400px;
-     max-width: 400px;
-     height: 380px;
+     width: 350px;
+     max-width: 350px;
+     height: 350px;
      margin-top: 40px;
     position: relative;
   }
