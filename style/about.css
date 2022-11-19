@@ -261,6 +261,9 @@
     .wedding_img{
       padding: 0px 0px;
     }
+    .wedding_img_container{
+      padding: 40px 30px;
+    }
     .first-about p{
       font-size: 15px;
     }
@@ -285,5 +288,16 @@
   @media only screen and (max-width:575px){
     .sect p{
       text-align: center;
+    }
+  }
+  @media only screen and (max-width:325px){
+    .second-about img{
+      width: 248px;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+    .circus img{
+      display: none;
     }
   }

@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-image: url('../images/neeraj-brass-band-chourakheda-narsinghpur-narsinghpur-brass-bands-trw8s3sd3a.png'), radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: url('../images/wedding-baggi-1563862926-5010715.jpg'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-blend-mode: darken;
    
   }
@@ -45,7 +45,7 @@
     font-family: 'Lexend', sans-serif;
   }
   .about-welcome{
-    padding: 50px 60px;
+    padding: 85px 60px;
     background-color: #ffffff;
     position: relative;
   }
@@ -75,19 +75,7 @@
   .first-about .third-para-service{
     margin-top: 10px;
   }
-  .abouts-butt button{
-    background-color: #FD4434;
-    color: white;
-    font-size: 14px;
-    padding: 7px 24px;
-    outline: none;
-    border: none;
-    border-radius: 1px 12px;
-    font-weight: 500;
-    margin-top: 15px;
-    cursor: pointer;
-    font-family: 'Lexend', sans-serif;
-  }
+  
   .about-read-more button{
     background-color: #FD4434;
     outline: none;
@@ -116,12 +104,11 @@
     transform: rotate(10deg);
   }
   .second-about img{
-     width: 400px;
-     max-width: 400px;
-     height: 440px;
+     width: 350px;
+     max-width: 350px;
+     height: 350px;
      margin-top: 40px;
     position: relative;
-    
   }
 
   
@@ -143,6 +130,7 @@
     margin: 0 10px;
   }
 
+  /* ===============media query============== */
   @media only screen and (max-width:1199px){
     .fect{
        left: 9%; 
@@ -213,11 +201,11 @@
   .wedding_img{
     padding: 0px 0px;
   }
-  .wedding_img_container{
-    padding: 40px 30px;
-  }
   .first-about p{
     font-size: 15px;
+  }
+  .wedding_img_container{
+    padding: 40px 30px;
   }
   .wedding_img img{
     width: 600px;
@@ -247,4 +235,6 @@
     display: none;
   }
 }
+  
+ 
   

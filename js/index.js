@@ -27,11 +27,11 @@ template.innerHTML=`<div class="sender">
         <ul class="dropdown">
             <li><a href="bandBaja.html">Band Baaja</a></li>
             <li><a href="ghori.html">Ghori & Baggi</a></li>
-            <li><a href="">Lightings</a></li>
-            <li><a href="">Punjabi Dhol</a></li>
-            <li><a href="">Russian Dhol</a></li>
-            <li><a href="">Wedding Fireworks</a></li>
-            <li><a href="">Shahi Shehnai vadan</a></li>
+            <li><a href="lightings.html">Lightings</a></li>
+            <li><a href="punjabi.html">Punjabi Dhol</a></li>
+            <li><a href="rusian.html">Russian Dhol</a></li>
+            <li><a href="fireworks.html">Wedding Fireworks</a></li>
+            <li><a href="sahisahanai.html">Shahi Shehnai vadan</a></li>
             <li><a href="">Royal Nagada & Turai</a></li>
             <li><a href="">Nafiri tasha Party</a></li>
             <li><a href="">Bride Groom Entry</a></li>
