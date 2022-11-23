@@ -114,6 +114,8 @@
     justify-content: center;
     flex-direction: column;
  }
+ 
+ 
  .second-three-circle{
     border-radius: 10px;
     margin: 0 10px;
@@ -125,6 +127,7 @@
     justify-content: center;
     flex-direction: column;
  }
+ 
  .third-three-circle{
     border-radius: 10px;
     margin: 0 10px;

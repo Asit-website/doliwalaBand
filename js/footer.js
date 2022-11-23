@@ -9,7 +9,7 @@ document.write(`<footer>
   </div>
   <div class="about_image">
     <a target="_blank" href="https://instagram.com/doliwala_events_and_wedding?igshid=YmMyMTA2M2Y="><img src="images/Mask Group 12.png" alt="ja"></a>
-    <a target="_blank" href="https://www.facebook.com/doliwalaevents/"><img src="images/Mask Group 6.png" alt="no"></a>
+    <a target="_blank" href="https://www.facebook.com/luxuryweddingband?mibextid=ZbWKwL"><img src="images/Mask Group 6.png" alt="no"></a>
     <a target="-blank" href="https://twitter.com/doliwalaevents?t=h0mVouDjALrc0QEeGZ2r7Q&s=09"><img src="images/Mask Group 8.png" alt="it"></a>
     <!-- <a target="-blank" href="https://www.kooapp.com/profile/doliwalaeventsandwedding "><img class="koo"  src="images/koo.png" alt="so"></a> -->
     <!-- <a target="-blank" href="https://pin.it/7hBwKIG"><img class="pinter" src="images/pinu.png" alt="be"></a> -->
@@ -19,9 +19,9 @@ document.write(`<footer>
   <div class="other-brands">
   <span>Our other brands</span>
   <div class="brand">
-      <a target="_blank" href="www.doliwalaband.com"><img src="images/doli.png" alt=""></a>
-      <a target="_blank" href="www.doliwalaband.com">Doliwala डोलीवाला Band <br/>
-      The Luxury Wedding Band</a>
+      <a target="_blank" href="http://doliwala.com/"><img src="images/doli.png" alt=""></a>
+      <a target="_blank" href="http://doliwala.com/">DOLIWALA डोलीवाला <br/>
+      Events & Wedding</a>
   </div>
   <div class="brand">
      <a target="_blank"  href="http://www.palkiwala.com/" > <img src="images/ds.jpeg" alt=""></a>
