@@ -10,7 +10,7 @@ document.write(`<footer>
   <div class="about_image">
     <a target="_blank" href="https://instagram.com/doliwala_events_and_wedding?igshid=YmMyMTA2M2Y="><img src="images/Mask Group 12.png" alt="ja"></a>
     <a target="_blank" href="https://www.facebook.com/luxuryweddingband?mibextid=ZbWKwL"><img src="images/Mask Group 6.png" alt="no"></a>
-    <a target="-blank" href="https://twitter.com/doliwalaevents?t=h0mVouDjALrc0QEeGZ2r7Q&s=09"><img src="images/Mask Group 8.png" alt="it"></a>
+    <a target="-blank" href="https://twitter.com/DoliwalaBand"><img src="images/Mask Group 8.png" alt="it"></a>
     <!-- <a target="-blank" href="https://www.kooapp.com/profile/doliwalaeventsandwedding "><img class="koo"  src="images/koo.png" alt="so"></a> -->
     <!-- <a target="-blank" href="https://pin.it/7hBwKIG"><img class="pinter" src="images/pinu.png" alt="be"></a> -->
     <a target="-blank" href="https://youtube.com/channel/UCqMQTrx_gCy0WSjfStYIVeA"><img src="images/Mask Group 11.png" alt="be"></a>
@@ -51,7 +51,7 @@ document.write(`<footer>
   <div class="doliWala_textImg" style="display: flex; flex-direction:column;">
     <div class="doliwala_try" style="display: flex ; margin-top: 18px;">
       <img style="width:17px ; height:17px;" src="images/Mask Group 15.png" alt="">
-      <p class="dir">Doliwala.india@gmail.com</p>
+      <p class="dir">doliwalaband.india@gmail.com</p>
     </div>
     <div class="doliwala_try" style="display:flex ;margin-top: 18px;">
       <img style="width:17px ; height:17px;" src="images/Mask Group 14.png" alt="">

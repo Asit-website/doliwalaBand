@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-image: url('../images/WhatsApp\ Image\ 2020-06-25\ at\ 2.42.31\ PM.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url('../images/doliwalaband4.jpeg'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-blend-mode: darken;
   }
 
@@ -40,7 +40,7 @@
   }
   .fect h1{
     color: #fae425;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
   }
@@ -254,7 +254,7 @@
       font-size: 26px;
     }
     .sect p{
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 

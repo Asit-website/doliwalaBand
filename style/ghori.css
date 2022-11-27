@@ -40,7 +40,7 @@
   }
   .fect h1{
     color: #fae425;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
   }
@@ -126,6 +126,8 @@
   }
   .wedding_img img{
     width:325px;
+    height: 400px;
+    object-fit: cover;
     max-width: 100%;
     margin: 0 10px;
   }
@@ -196,7 +198,7 @@
 
 @media only screen and (max-width:402px){
   .fect h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .wedding_img{
     padding: 0px 0px;
