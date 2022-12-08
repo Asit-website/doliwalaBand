@@ -124,6 +124,7 @@ body {
   background-color: #ffffff;
   font-weight: bold;
 }
+
 .v-class-resp{
   visibility: visible;
 }
@@ -138,7 +139,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   z-index: 1;
-  margin-top: 34.7px;
+  /* margin-top: 34.7px; */
 }
 .propdown{
  display: block !important;
@@ -146,6 +147,9 @@ body {
 .dropdown li {
   padding: 0px 12px;
   margin: 10px !important;
+}
+.tier:hover.dropdown{
+  display: flex !important;
 }
 .dropdown li a:is(:link, :active, :visited) {
   text-decoration: none !important;

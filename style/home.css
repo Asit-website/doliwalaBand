@@ -662,9 +662,9 @@
     .fexta h1{
       font-size: 20px;
     }
-    /* .luxury-side-second img{
-      display: none;
-    } */
+    .fect h1{
+      font-size: 16px;
+    }
     .fect{
       white-space: break-spaces;
     }
@@ -701,7 +701,7 @@
       font-size: 15px;
     }
     .fect h1{
-      font-size: 18px;
+      font-size: 16px;
     }
     .luxury-side-first h1{
       font-size: 26px;

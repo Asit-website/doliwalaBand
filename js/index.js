@@ -54,5 +54,16 @@ feg.appendChild(template.content);
 let prop = document.querySelector(".dropdown");
 let tier = document.querySelector(".tier");
 tier.addEventListener("mouseover",()=>{
-    prop.classList.toggle("propdown");
+    prop.classList.add("propdown");
 })
+
+tier.addEventListener("mouseout",()=>{
+   if(prop.addEventListener("mouseover",()=>{
+       prop.classList.add("propdown")
+   }));
+
+   if(prop.addEventListener("mouseout",()=>{
+    prop.classList.remove("propdown")
+}));
+})
+

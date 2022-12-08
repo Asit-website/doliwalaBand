@@ -260,12 +260,15 @@
   .fect{
     white-space: break-spaces;
   }
+  .fect h1{
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width:402px){
   .sect h2{
     font-size: 26px;
   }
   .fect h1{
-    font-size: 18px;
+    font-size: 16px;
   }
 }

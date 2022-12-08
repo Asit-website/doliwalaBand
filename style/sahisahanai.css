@@ -183,6 +183,9 @@
   .second-about .bansi img{
     display: none;
   }
+  .fect h1{
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width:850px) {
@@ -200,7 +203,7 @@
 
 @media only screen and (max-width:402px){
   .fect h1{
-    font-size: 18px;
+    font-size: 16px;
   }
   .wedding_img{
     padding: 0px 0px;
