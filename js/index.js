@@ -23,7 +23,7 @@ template.innerHTML=`<div class="sender">
   <ul class="fing v-class-resp linkta">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Us</a></li>
-    <li ><a class="tier"  href="service.html">Services</a>
+    <li class="fire"><a class="tier"  href="service.html">Services</a>
         <ul class="dropdown">
             <li><a href="bandBaja.html">Band Baaja</a></li>
             <li><a href="ghori.html">Ghori & Baggi</a></li>
@@ -62,8 +62,11 @@ tier.addEventListener("mouseout",()=>{
        prop.classList.add("propdown")
    }));
 
-   if(prop.addEventListener("mouseout",()=>{
+   else if(prop.addEventListener("mouseout",()=>{
     prop.classList.remove("propdown")
 }));
+  else{
+    prop.classList.remove("propdown");
+  }
 })
 
